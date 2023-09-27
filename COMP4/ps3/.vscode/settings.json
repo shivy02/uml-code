@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "ios": "cpp",
+        "bitset": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

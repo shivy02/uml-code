@@ -1,0 +1,8 @@
+3
+6.0E8
+ 5.000000e+08  0.000000e+00  0.000000e+00 -2.482233e+02 8.00e+23 earth.gif
+-2.500000e+08  4.330127e+08  2.149677e+02  1.241117e+02 8.00e+23 earth.gif
+-2.500000e+08 -4.330127e+08 -2.149677e+02  1.241117e+02 8.00e+23 earth.gif
+
+Universe created by Colin Ponce, Spring 2007.
+System of 3 bodies in uniform circular motion
