@@ -1,0 +1,30 @@
+
+{"pieces": [
+	{"letter":"A", "value":1, "amount":9, "image": "Scrabble_Tile_A.jpg"},
+	{"letter":"B", "value":3, "amount":2, "image": "Scrabble_Tile_B.jpg"},
+	{"letter":"C", "value":3, "amount":2, "image": "Scrabble_Tile_C.jpg"},
+	{"letter":"D", "value":2, "amount":4, "image": "Scrabble_Tile_D.jpg"},
+	{"letter":"E", "value":1, "amount":12, "image": "Scrabble_Tile_E.jpg"},
+	{"letter":"F", "value":4, "amount":2, "image": "Scrabble_Tile_F.jpg"},
+	{"letter":"G", "value":2, "amount":3, "image": "Scrabble_Tile_G.jpg"},
+	{"letter":"H", "value":4, "amount":2, "image": "Scrabble_Tile_H.jpg"},
+	{"letter":"I", "value":1, "amount":9, "image": "Scrabble_Tile_I.jpg"},
+	{"letter":"J", "value":8, "amount":1, "image": "Scrabble_Tile_J.jpg"},
+	{"letter":"K", "value":5, "amount":1, "image": "Scrabble_Tile_K.jpg"},
+	{"letter":"L", "value":1, "amount":4, "image": "Scrabble_Tile_L.jpg"},
+	{"letter":"M", "value":3, "amount":2, "image": "Scrabble_Tile_M.jpg"},
+	{"letter":"N", "value":1, "amount":5, "image": "Scrabble_Tile_N.jpg"},
+	{"letter":"O", "value":1, "amount":8, "image": "Scrabble_Tile_O.jpg"},
+	{"letter":"P", "value":3, "amount":2, "image": "Scrabble_Tile_P.jpg"},
+	{"letter":"Q", "value":10, "amount":1, "image": "Scrabble_Tile_Q.jpg"},
+	{"letter":"R", "value":1, "amount":6, "image": "Scrabble_Tile_R.jpg"},
+	{"letter":"S", "value":1, "amount":4, "image": "Scrabble_Tile_S.jpg"},
+	{"letter":"T", "value":1, "amount":6, "image": "Scrabble_Tile_T.jpg"},
+	{"letter":"U", "value":1, "amount":4, "image": "Scrabble_Tile_U.jpg"},
+	{"letter":"V", "value":4, "amount":2,"image": "Scrabble_Tile_V.jpg"},
+	{"letter":"W", "value":4, "amount":2, "image": "Scrabble_Tile_W.jpg"},
+	{"letter":"X", "value":8, "amount":1, "image": "Scrabble_Tile_X.jpg"},
+	{"letter":"Y", "value":4, "amount":2, "image": "Scrabble_Tile_Y.jpg"},
+	{"letter":"Z", "value":10, "amount":1, "image": "Scrabble_Tile_Z.jpg"}
+]
+};

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">lecture14Exer</string>
+    <string name="welcome_text">Welcome! Use this app to encrypt a secret message.</string>
+    <string name="button_instruction">Click the start button to begin.</string>
+    <string name="start_button">START</string>
+    <string name="message_hint">Please enter your secret message</string>
+    <string name="encrypt_button">ENCRYPT</string>
+    <string name="final_text">Here is your encrypted message:</string>
+    <string name="help_text">To use this app, press the start button and then enter text on the next screen.</string>
+    <string name="settings_title">Settings</string>
+    <string name="message_title">Message</string>
+    <string name="help_title">Help</string>
+</resources>

@@ -1,0 +1,11 @@
+D_ID,D_NAME,D_GENDER,D_AGE,D_SPECIALIZATION,D_YEARS_OF_EXPERIENCE,D_CONTACT,D_STREET,D_CITY
+000000000,JAMES SMITH,m,36,General surgery,10,781-370-0443,Sterling Place,Reading
+000000001,JOHN JOHNSON,m,39,Pathology,13,508-258-6524,Starr Street,Worcester
+000000002,ROBERT WILLIAMS,m,30,Neurology,4,617-936-0638,Dewitt Avenue,Boston
+000000003,MICHAEL JONES,m,41,Nuclear medicine,15,339-166-9590,Lawn Court,Burlington
+000000004,WILLIAM BROWN,m,44,Physical medicine and rehabilitation,18,781-045-4121,Newel Street,Burlington
+000000005,MARY SMITH,f,36,Internal medicine,10,978-930-3316,Homecrest Avenue,Lowell
+000000006,PATRICIA JOHNSON,f,31,Obstetrics and gynaecology,5,978-930-9517,Whitney Avenue,Lowell
+000000007,LINDA WILLIAMS,f,54,Cardiothoracic anesthesiology,28,978-930-9485,Lee Avenue,Lowell
+000000008,BARBARA JONES,f,45,Neurosurgery,19,617-314-5667,Himrod Street,Woburn
+000000009,ELIZABETH BROWN,f,57,Pediatrics,31,617-314-8264,Lee Avenue,Woburn

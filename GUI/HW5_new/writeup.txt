@@ -1,0 +1,17 @@
+Purpose: The purpose of this assignment is to create a scrabble game that implements one 
+line of the scrabble board and uses jquery draggable
+
+Working Functionality:
+-There is a deal tiles button that deals a randomized selection of 7 tiles on the tile rack
+-The scrabble board has 15 spots that the user can drag and snap a tile into on the gameboard.
+-There is a remaining tile count that is displayed at the bottom of the page.
+-If the tiles are dropped on eachother, they return to the last spot on the gameboard or on the tile rack
+
+Non-Working:
+-There were several issues that I ran into while doing this project
+-There is no submit button that tallies up the score.
+    -In order to do this, there must be a dictionary linked which I did not have access to.
+    -There also needs to be a way to detect if the tiles are placed next to eachother and if they form a word.
+    -Also have to create method to detect which spot the tile was dropped on - either double letter score, or double word score.
+-Sometimes, tiles return to random spots on the screen when a tile is placed on top of another one.
+-Remaining tile count doesn't seem to work

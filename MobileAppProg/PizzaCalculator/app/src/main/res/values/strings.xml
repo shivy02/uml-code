@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pizza Calculator</string>
+    <string name="label1">Number of Guests?</string>
+    <string name="label2">How hungry?</string>
+    <string name="button_text">Calculate</string>
+    <string name="hint">Enter a number</string>
+    <string-array name="hunger_level">
+        <item>Light</item>
+        <item>Medium</item>
+        <item>Ravenous</item>
+    </string-array>
+</resources>

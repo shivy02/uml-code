@@ -1,0 +1,41 @@
+P_ID,P_NAME,P_GENDER,P_AGE,P_DISEASE,P_CONTACT,P_STREET,P_CITY
+000001000,DAVID DAVIS,m,47,Heartburn,978-930-0234,Mamoth Road,Lowell
+000001001,RICHARD MILLER,m,52,Infertility,781-389-9038,Straight Street,Reading
+000001002,CHARLES WILSON,m,46,Ear Problems,617-314-9446,Beacon Street,Boston
+000001003,JOSEPH MOORE,m,63,Melena (Blood in Stool),508-258-1004,Starr Street,Worcester
+000001004,THOMAS TAYLOR,m,64,Bronchitis,978-930-4554,Mamoth Road,Lowell
+000001005,CHRISTOPHER ANDERSON,m,45,Miscarriages,617-314-7541,Himrod Street,Woburn
+000001006,DANIEL THOMAS,m,42,Heart Attacks,978-930-8765,Whitney Avenue,Lowell
+000001007,PAUL JACKSON,m,67,Gynecomastia,617-314-8442,Lee Avenue,Woburn
+000001008,MARK WHITE,m,53,Prostate Cancer,617-936-0112,Daisy Avenue,Boston
+000001009,DONALD HARRIS,m,69,Burns,978-930-3257,Highway Avenue,Lowell
+000001010,GEORGE MARTIN,m,25,Irritable Bowel Syndrome (IBS),617-936-0539,Common Avenue,Boston
+000001011,KENNETH THOMPSON,m,62,Hepatitis,978-930-5339,Brodway Street,Lowell
+000001012,STEVEN GARCIA,m,58,Anorexia Nervosa,617-314-5612,Himrod Street,Woburn
+000001013,EDWARD MARTINEZ,m,44,Down Syndrome,617-936-4765,Prudential Street,Boston
+000001014,BRIAN ROBINSON,m,71,Staph Infection (MRSA),617-936-9701,Brodway Street,Boston
+000001015,RONALD CLARK,m,66,Gout,781-045-1214,Newel Street,Burlington
+000001016,ANTHONY RODRIGUEZ,m,42,Eye Problems,617-314-2502,Totman Drive,Woburn
+000001017,KEVIN LEWIS,m,23,Juvenile Diabetes,781-045-1661,Newyear Street,Burlington
+000001018,JASON LEE,m,36,Canker Sores (Cold Sores),617-314-7812,Cambridge Street,Woburn
+000001019,MATTHEW WALKER,m,30,Obsessive Compulsive Disorder (OCD),781-045-1321,Newel Street,Burlington
+000001020,MAISY MATHEW,f,28,Ankle Twist,617-314-1234,Lee Avenue,Woburn
+000001021,MARIA MILLER,f,24,Alzheimers Disease,617-314-6845,Happy Street,Dracut
+000001022,SUSAN WILSON,f,33,Bone Cancer,617-936-1111,Haymarket Avenue,Boston
+000001023,MARGARET MOORE,f,21,Osteoporosis,508-258-6655,Starr Street,Worcester
+000001024,DOROTHY TAYLOR,f,15,Acid Reflux Disease (GERD),508-258-7878,Sand Street,Worcester
+000001025,LISA ANDERSON,f,66,Warts,508-258-6521,Apple Street,Worcester
+000001026,NANCY THOMAS,f,37,Infectious Mononucleosis (Glandular Fever),781-370-0412,Sterling Place,Reading
+000001027,KAREN JACKSON,f,68,Peyronies Disease,508-258-4290,Conway Avenue,Worcester
+000001028,BETTY WHITE,f,32,Chronic Obstructive Pulmonary Disease (COPD),781-370-4509,Sterling Place,Reading
+000001029,HELEN HARRIS,f,72,Cancer,617-936-0880,First Street,Boston
+000001030,SANDRA MARTIN,f,16,Bladder Cancer,617-936-1460,Massachusetts Avenue,Boston
+000001031,DONNA THOMPSON,f,59,Sinus Infections,508-258-1225,Summer Street,Worcester
+000001032,CAROL GARCIA,f,15,Canker Sores (Cold Sores),781-370-0007,Bond Street,Reading
+000001033,RUTH MARTINEZ,f,47,Ear Infections,781-370-0383,Swan Avenue,Reading
+000001034,SHARON ROBINSON,f,43,Brain Injury,617-936-1462,Massachusetts Avenue,Boston
+000001035,MICHELLE CLARK,f,74,Sexually Transmitted Disease (STD),617-936-1290,Massachusetts Avenue,Boston
+000001036,LAURA RODRIGUEZ,f,34,Psoriasis,617-936-1445,Massachusetts Avenue,Boston
+000001037,SARAH LEWIS,f,16,Obesity,978-930-1264,Homecrest Avenue,Lowell
+000001038,KIMBERLY LEE,f,47,Hypertension (High Blood Pressure),617-314-8925,Himrod Street,Woburn
+000001039,DEBORAH WALKER,f,52,Panic Attack,978-930-1279,School Street,Lowell

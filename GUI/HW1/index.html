@@ -1,0 +1,183 @@
+<!
+--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Shivam Patel, UMass Lowell Computer Science,
+shivam_patel3@student.uml.edu
+Description: A simple portfolio website with tabs built using html and css. There are also bootsrap icons and buttons for styling
+Copyright (c) 2021 by Wenjin. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by WZ on July 7, 2021 at 9:23 AM
+--
+>
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+    	<title>Personal Portfolio Website</title>
+    	<link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/8b5e4e164d.js" crossorigin="anonymous"></script>
+	</head>
+
+
+	<body>
+		<!-- header and nav section -->
+		<header class="header"> 
+			<a href="#home" class="logo">Shivam.</a>
+			<nav class="navbar">
+				<a href="#home" class="nav-link">Home</a>
+				<a href="#about" class="nav-link">About</a>
+				<!-- <a href="#">Services</a> -->
+				<a href="#projects" class="nav-link" >Portfolio</a>
+				<a href="#contact" class="nav-link">Contact Me</a>
+			</nav>
+		</header>
+		<!-- home section -->
+		<section class="home" id="home">
+			<div class="home-grid">
+				<div class="home-content">
+					<h1>Hi I'm Shivam Patel</h1>
+					<h3>Software Developer</h3>
+					<p>As a Senior student pursuing a Computer Science Degree at the University of Massachusetts Lowell, I have accumulated a substantial depth of experience and honed a diverse skill set encompassing both Frontend and Backend Software Development. In addition, I've ventured into the emerging field of Cloud Engineering, which represents a contemporary frontier within the realm of Computer Science.</p>
+					
+					<!-- <div class="btn-box">
+						<a href="#">Hire Me</a>
+						<a href="#">Let's Talk</a>
+					</div> -->
+				</div>
+				<!-- <div class="image-container"> </div> -->
+				<img class="imageclass" src="/images/profile2.png">
+			</div>		
+		</section>
+		<!-- about section -->
+		<section class="about" id="about">
+			<div class="about-content">
+				<h1>About</h1>
+				<h3>Occupation: Software Developer</h3>
+				<div class="about-item">
+					<img src="images/saic.png">
+					<h2>SAIC</h2>
+					<h3>Cloud Engineer Intern | Team Lead</h3>
+					<a>
+						At SAIC, I supervised a team of Cloud Engineer and DevSecOps interns on Air Force Cloud One. Together, we spearheaded an array of automation initiatives aimed at enhancing the efficiency of mission application migrations to the Azure Cloud platform. This encompassed standardizing code practices, establishing robust CI/CD pipelines, implementing Azure Functions, and orchestrating the deployment of Golden Image STIG VMs, all accomplished through the utilization of PowerShell scripting. These efforts collectively contributed to a more streamlined and secure cloud infrastructure.
+					</a>
+				</div>
+				<div class="about-item">
+					<img src="/images/orbita.png">
+					<h2>Orbita AI</h2>
+					<h3>Software Engineer Intern</h3>
+					<a>
+						In my role as an engineer, I actively contributed to the development of software features by implementing them through REST API integration. Additionally, I played a pivotal role in maintaining code quality by participating in thorough code reviews and ensuring that our codebase adhered to high-quality standards. I also took on scripting tasks for debugging and automation, streamlining our development processes. Moreover, I diligently investigated and resolved application functionality issues, ensuring that our software operated seamlessly. To further guarantee the reliability of our applications, I conducted usability testing and ensured that they closely followed the established code plan.
+					</a>
+				</div>
+				<div class="about-item">
+					<img src="/images/uml.png" width="220px" height="240px">
+					<h2>Umass Lowell</h2>
+					<h3>Resident Advisor</h3>
+					<a>
+						As a Resident Advisor, I acted as a mediator, effectively resolving conflicts and enforcing policies to create a safe and productive living environment. Additionally, I acquired valuable skills in nurturing positive relationships with students by offering support through the implementation of dormitory programs, promoting open communication channels, and advocating for their individual needs. This approach fostered a welcoming and harmonious atmosphere conducive to personal and academic growth.
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- project section -->
+		<section class="Projects" id="projects">
+			<h2 class="projects-title">Some of my Recent Projects</h2>
+			<div class="projects-container">
+			  <div class="project-container project-card">
+				<img
+				  src="images/crpytopigeon.jpeg"
+				  alt="expense-tracker"
+				  loading="lazy"
+				  class="project-pic"
+				/>
+				<h3 class="project-title">CryptoPigeon</h3>
+				<p class="project-details">
+					A decentralized communication platform that prioritizes unmatched levels of privacy and security. We accomplish this by elevating cryptographic measures, enabling users to host their own servers for sending and receiving calls, messages, and media.
+				</p>
+				<a href="https://www.uml.edu/differencemaker/meet-the-differencemakers/dm-cryptopigeon.aspx" target="_blank" class="project-link">Check it Out</a>
+			  </div>
+			  <div class="project-container project-card">
+				<img
+				  src="images/encoder.png"
+				  alt="netflic-clone"
+				  loading="lazy"
+				  class="project-pic"
+				/>
+				<h3 class="project-title">Image Encrypter</h3>
+				<p class="project-details">
+				  A program that takes in an image and encodes it using a Linear Feedback Shift Register. The image can also be decoded.
+				</p>
+				<a href="https://github.com/shivy02/uml-code/tree/main/COMP4/ps1b" target="_blank" class="project-link">Check it Out</a>
+			  </div>
+			  <div class="project-container project-card">
+				<img
+				  src="images/planets.png"
+				  alt="greeny-earth"
+				  loading="lazy"
+				  class="project-pic"
+				/>
+				<h3 class="project-title">Solar System Simulation</h3>
+				<p class="project-details">
+					A simulation of our Solar System using C++ and the SFML library. This simulation accurately models the orbits of the inner planets around the Sun, replicating real-world physics.
+				</p>
+				<a href="https://github.com/shivy02/uml-code/tree/main/COMP4/ps2b" target="_blank" class="project-link">Check it Out</a>
+			  </div>
+			</div>
+		  </section>
+		  <!-- contact section-->
+		  <section id="contact">
+			<div class="container mt-3 contactContent">
+				<h1 class="text-center">Contact Me</h1>
+				<div class="row mt-4">
+					<div class="col-lg-6">
+						<!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+						<div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+							<div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+								<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=masachusettes&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+								</iframe>
+							</div>
+							<a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+							<style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+							</style>
+						</div>
+					</div>
+	
+					<div class="col-lg-6">
+						<!-- form fields -->
+						<form>
+							<input type="text" class="form-control form-control-lg" placeholder="Name">
+							<input type="email" class="form-control mt-3" placeholder="Email">
+							<input type="text" class="form-control mt-3" placeholder="Subject">
+							<div class="mb-3 mt-3">
+								<textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+							</div>
+						</form>
+						<button type="button" class="btn btn-outline-primary">Contact Me</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- footer section-->
+		<footer id="footer">
+			<div class="container-fluid">
+				<!-- social media icons -->
+				<div class="social-icons mt-4">
+					<a href="https://www.instagram.com/shivy_02/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/shivam-patel-363747214/" target="_blank"><i class="fab fa-linkedin"></i></a>
+					<a href="https://www.github.com/" target="_blank"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	</body>
+	<!-- <script src="script.js"></script> -->
+</html>

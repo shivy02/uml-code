@@ -1,0 +1,77 @@
+<!-- **************************
+* Author: Shivam Patel
+* Email: Shivam_Patel3@student.uml.edu
+* GitHub: shivy02
+ ****************************-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dynamic Multiplication Table</title>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="css/style.css" type="text/css"
+        rel="stylesheet" />
+    </head>
+    <body>
+      <div class="container">
+        <h1>Dynamic Multiplication Table</h1>
+
+        <div class ="row">
+            <div class="col-sm-5">
+              <!-- Set form method to prevent submit from refreshing -->
+              <form id="inputForm" action="" method="GET">
+
+                <p>Please enter an integer between -50 to 50 for the horizontal boundaries, order does not matter:</p>
+                <!-- <label for="row-one">Horizontal Boundary 1:</label> -->
+                <input type="number" name="num1" id="row-one"><br>
+                <div id="slider-row-one"></div>
+
+                <input type="number" name="num2" id="row-two"><br>
+                <div id="slider-row-two"></div>
+                
+
+                <p>Please enter an integer between -50 to 50 for the vertical boundaries, order does not matter:</p>
+
+                <input type="number" name="num3" id="col-one"><br>
+                <div id="slider-col-one"></div>
+
+                <input type="number" name="num4" id="col-two"><br>
+                <div id="slider-col-two"></div>
+
+                <div class="button-container">
+                  <input type="button" id="submitButton" value="SUBMIT" disabled="true">
+                  <button type="button" id="add-tab">Generate Tab</button>
+                  <!-- <input type="button" id="delete-all">Delete Tabs</input> -->
+                </div>
+              </form>
+              <br>
+           </div>
+          <!-- table-->
+          <div class="col-sm-7">
+              <p>You can use the scrollbar to look at the entire table once generated. </p>
+                <!-- Placeholder for table, uses bootstrap classes-->
+              <div class="table-responsive">
+                    <table class="table table-striped">
+                    </table>
+              </div>
+           </div>
+           
+           <div id="tabs">
+            <ul></ul>
+              <!-- Placeholder for table, uses bootstrap classes-->
+              <div class="table-responive">
+                <table class="table table-striped">
+                </table>
+              </div>
+          </div>
+       </div> <!-- last div-->
+
+       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+       <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+       <script src="js/dynamictable.js"></script>
+
+   </body>
+</html>

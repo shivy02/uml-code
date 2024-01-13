@@ -1,0 +1,105 @@
+header{
+	background-image:url('sunset.jpg');
+	background-repeat: no-repeat;
+	background-color: #000033;
+	background-position: right;
+	color: #FFFFFF;
+}
+
+body {
+	background-image: url(ptrbackground.jpg);
+	background-color: #00569f	;
+	color: #666666;
+}
+
+#wrapper{
+	margin: auto;
+	width: 80%;
+	background-color: #8cc6e3;
+	min-width: 600px;
+}
+
+nav {
+	margin-left: 30px;
+	font-weight: bold;
+	padding-top: 20px;
+	width: 160px;
+	float: left;
+}
+
+nav ul {
+	padding-left: 0px;
+	margin: auto;
+	font-size: 1.2em;
+	list-style-type: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+nav a {
+	text-decoration: none;
+	color: #000033;
+
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+a link{
+	color: #000033;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+	color: #3399CC;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#content {
+    margin-left: 200px;
+    padding: 20px; 
+    background-color: #ffffff;
+	font-size: 20px;
+}
+
+#content ul{
+	list-style: inside url('marker.gif');
+}
+
+#content img {
+    float: left; 
+    padding-right: 15px;
+    margin-bottom: auto;
+}
+
+.resort{
+	color: #377da0;
+    font-weight: bold;
+    margin-top: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+.text{
+	text-align: left;	
+}
+
+#contact {
+	font-size: 90%;
+}
+
+footer {
+	padding: 20px;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: #ffffff;
+	margin-left: 200px; 
+}
+

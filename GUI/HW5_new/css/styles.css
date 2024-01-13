@@ -1,0 +1,99 @@
+/* CSS Styling */
+body{
+  background-color: rgb(30, 30, 68);
+}
+#scrabble-board {
+    position: relative;
+    width: 600px; 
+    height: 100px; 
+    background: url('../imgs/Scrabble_Board_OneLine.png') no-repeat;
+    background-size: contain; 
+  }
+  
+  .scrabble-square {
+    position: absolute;
+    width: 40px; 
+    height: 40px; 
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+
+
+  
+  /* Define positions for each square */
+  #square1 { top: 0; left: 0; }
+  #square2 { top: 0; left: 40px; }
+  #square3 { top: 0; left: 80px; }
+  #square4 { top: 0; left: 120px; }
+  #square5 { top: 0; left: 160px; }
+  #square6 { top: 0; left: 200px; }
+  #square7 { top: 0; left: 240px; }
+  #square8 { top: 0; left: 280px; }
+  #square9 { top: 0; left: 320px; }
+  #square10 { top: 0; left: 360px; }
+  #square11 { top: 0; left: 400px; }
+  #square12 { top: 0; left: 440px; }
+  #square13 { top: 0; left: 480px; }
+  #square14 { top: 0; left: 520px; }
+  #square15 { top: 0; left: 560px; }
+
+
+  #page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darkblue;
+  }
+  
+  /* Scrabble Game styles */
+  #game-container {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Set a fixed width for the game container */
+    margin: 0 auto; /* Center the game container horizontally */
+  }
+
+  /* Repeat for the remaining squares */
+  
+  .double-word-score {
+    background-color: #ffcc00; /* Double word score color */
+  }
+  
+  .double-letter-score {
+    background-color: #66cc66; /* Double letter score color */
+  }
+  
+  #scrabble-tile-rack {
+    background: url('../imgs/scrabble-tile-rack.png') no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 100px;
+    margin: 20px auto; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 5px 0;
+  }
+  
+  .scrabble-tile {
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: move;
+    display: inline-block;
+    margin-bottom: 40px; 
+  }
+  
+  #scrabble-board {
+    margin: 0 auto; 
+  }
+  button {
+    margin: 10px;
+  }

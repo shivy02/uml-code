@@ -1,0 +1,53 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Scrabble Game</title>
+  </head>
+  <body>
+    <div id="page-containter">
+
+      <div id="game-container">
+        <h1>Scrabble Game</h1>
+        <div id="scrabble-board">
+              <div class="scrabble-square drop-target" id="square1"></div>
+              <div class="scrabble-square drop-target" id="square2"></div>
+              <div class="scrabble-square drop-target" id="square3"></div>
+              <div class="scrabble-square drop-target" id="square4"></div>
+              <div class="scrabble-square drop-target" id="square5"></div>
+              <div class="scrabble-square drop-target" id="square6"></div>
+              <div class="scrabble-square drop-target" id="square7"></div>
+              <div class="scrabble-square drop-target" id="square8"></div>
+              <div class="scrabble-square drop-target" id="square9"></div>
+              <div class="scrabble-square drop-target" id="square10"></div>
+              <div class="scrabble-square drop-target" id="square11"></div>
+              <div class="scrabble-square drop-target" id="square12"></div>
+              <div class="scrabble-square drop-target" id="square13"></div>
+              <div class="scrabble-square drop-target" id="square14"></div>
+              <div class="scrabble-square drop-target" id="square15"></div>
+        </div>
+        
+        <div id="scrabble-tile-rack">
+          <div class="scrabble-square" id="square1"></div>
+          <div class="scrabble-square" id="square2"></div>
+          <div class="scrabble-square" id="square3"></div>
+          <div class="scrabble-square" id="square4"></div>
+          <div class="scrabble-square" id="square5"></div>
+          <div class="scrabble-square" id="square6"></div>
+          <div class="scrabble-square" id="square7"></div>
+          <!-- This div will hold the user's letter tiles -->
+        </div>
+
+        <div id="remaining-tiles">Remaining Tiles: <span id="tiles-count"></span></div>
+
+        <button id="dealTilesButton">Deal Tiles</button>
+        <!-- <button id="clearBoardButton">Clear Board</button> -->
+      </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/scrabble.js"></script>
+  </body>
+  </html>

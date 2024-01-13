@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lecture03Exer</string>
+    <string name="displayText">Hello World</string>
+    <string name="buttonText">Update</string>
+</resources>

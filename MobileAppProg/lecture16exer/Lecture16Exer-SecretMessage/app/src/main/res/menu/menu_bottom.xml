@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/messageFragment"
+        android:title= "@string/message_title"
+        app:showAsAction="always"
+        android:icon="@drawable/menu_edit"/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title= "@string/settings_title"
+        android:icon="@drawable/menu_settings"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/helpFragment"
+        android:title= "@string/help_title"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="always"/>
+</menu>

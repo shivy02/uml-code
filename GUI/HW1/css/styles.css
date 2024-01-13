@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #081b29;
+    color: white;
+}
+
+/* css for the header of website*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #081b29 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+
+.navbar a:hover, 
+.navbar a:active{
+    color: #00abf0;
+    text-decoration: none;
+}
+
+/* css for home section */
+.home {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 18%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-grid {
+    display: grid;
+    align-items: right; 
+    grid-template-columns: 1fr 2fr;
+    column-gap: 200px;
+    position: relative;
+}
+
+.imageclass{
+    width: 500px;
+    height: 500px;
+    opacity: 80%;
+    position: absolute;
+    left: 35rem;
+    bottom: -120px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 40rem;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+/* css for about section of website */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: center;
+    margin: 50px;
+}
+
+.about-content {
+    max-width: 1000px;
+}
+
+.about-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.about-content h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #102e44;
+    text-align: start;
+}
+
+.about-content h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #00abf0;
+    text-align: center;
+}
+
+
+.about-content a{
+    font-size: 16px;
+    margin: 5rem 0 5rem;
+    text-decoration: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* align items that are in the about section next to eachother */
+.about-item {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    column-gap: 2rem;
+    border-top: 1px solid #081b29; 
+    border-bottom: 1px solid #081b29;
+    transition: .5s;
+}
+.about-item:hover{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    column-gap: 2rem;
+    border-top: 4px solid #081b29; 
+    border-bottom: 4px solid #081b29;
+}
+
+/* css for projects section */
+.projects {
+    background-color: var(--bg-color);
+    margin-top: 15rem;
+  }
+  
+.project-pic {
+    width: 85%;
+    height: 80%;
+}
+
+.project-title {
+    color: #00abf0;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 7rem;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.project-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 3rem;
+}
+
+/* styling for icons in the footer */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-instagram:hover,.fa-linkedin:hover, .fa-github:hover {
+    color: #00abf0;
+}
+.fab {
+    color: white;
+}
+/* footer styling */
+#footer {
+    background-color: #081b29;
+    text-align: center;
+}
+
+.contact h1{
+    font-weight: 700;
+}

@@ -1,0 +1,128 @@
+/***************************************
+* Author: Shivam Patel
+* Email: Shivam_Patel3@student.uml.edu
+* GitHub: shivy02
+***************************************/
+body {
+  background-color: #28406D;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #ffd700; 
+  background-size: auto;
+  text-align: center;
+  font: italic 250% 'Comic Sans MS', cursive;
+  border-bottom: 5px double #333;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 10px;
+  font-size: 400%;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+p {
+  font: italic 120% 'Comic Sans MS', cursive
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px; /* Adjust margin as needed */
+  height: fit-content;
+  width: auto;
+}
+
+/* Adjusted styling for buttons */
+#submitButton,
+#add-tab,
+#delete-all {
+  margin: 8px; /* Add margin for spacing between buttons */
+}
+
+
+#inputForm {
+  margin-left: auto;
+  margin-right: auto;
+  font: italic 120% 'Comic Sans MS', cursive;
+  color: #333;
+  text-align: center;
+}
+
+input {
+  border-radius: 12px; 
+  margin: 8px; 
+  text-align: center;
+  font-family: 'Arial', sans-serif; 
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 15px;
+}
+
+.container {
+  color: #333;
+  background-color: #B8C3D8;
+  border-radius: 15px;
+  padding-bottom: 20px; 
+  margin-top: 20px;
+}
+
+th, thead {
+  border: 3px solid #000;
+  color: #000;
+  background: #ffd700; 
+}
+
+tr:nth-child(2n) td:nth-child(2n+1),
+tr:nth-child(2n+1) td:nth-child(2n) {
+  border: 3px solid #000;
+  background: #fff;
+}
+
+
+td {
+  border: 3px solid #000;
+}
+
+.table-responsive {
+  max-width: 700px;
+  max-height: 700px;
+  overflow: auto;
+}
+
+.table-responsive::-webkit-scrollbar:horizontal {
+  height: 15px;
+}
+
+.table-responsive::-webkit-scrollbar:vertical {
+  width: 15px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .5);
+  border: 0px solid #fff;
+  border-radius: 12px;
+  
+}
+
+.table-responsive::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: #fff;
+}
+.table-responsive::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+/* .table-container {
+  max-height: 300px;
+  overflow-y: auto;
+} */
+
+.tab-content {
+  max-height: 300px; /* Set your preferred maximum height */
+  overflow-y: auto;
+}

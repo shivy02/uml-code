@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lecture17exer</string>
+    <string name="dash">_ _ _ _ _ _ _ _</string>
+    <string name="lives_text">Number of lives: </string>
+    <string name="guess_text">Incorrect Guesses:</string>
+    <string name="guess_hint">Guess a letter</string>
+    <string name="guessbutton_text">GUESS</string>
+    <string name="lost_msg">Sorry, you lost. The word was ACTIVITY.</string>
+    <string name="won_msg">You Won! The word was ACTIVITY.</string>
+    <string name="restartbutton_text">RESTART</string>
+</resources>
